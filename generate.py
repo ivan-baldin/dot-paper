@@ -5,7 +5,7 @@ import cairosvg
 
 generate_grid_sizes = [5, 7, 10]
 settings = dict(
-    dot_size=0.15, dot_color='rgb(200,200,200)',
+    dot_size=0.2, dot_color='rgb(200,200,200)',
     units='mm', width=210, height=297,
     margin=5, export_fmt='a4-{grid_size}{units}.pdf',
 )
